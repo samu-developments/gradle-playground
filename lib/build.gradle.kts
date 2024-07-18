@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.kotlin)
     `java-library`
+    id("HelloPlugin")
 }
 
 java {
@@ -19,7 +20,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
-    implementation(libs.kotlinx.coroutines)
+    implementation(libs.kotlinx.coroutines.core)
 }
 
 java {
