@@ -1,5 +1,6 @@
 plugins {
-    kotlin("jvm") version "2.0.0"
+    alias(libs.plugins.kotlin)
+    `java-library`
 }
 
 java {
@@ -18,6 +19,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation(libs.kotlinx.coroutines)
 }
 
 java {
