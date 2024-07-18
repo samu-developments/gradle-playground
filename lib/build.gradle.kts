@@ -20,6 +20,11 @@ dependencies {
     testImplementation(kotlin("test"))
 }
 
+java {
+    // Publish with sources, so consumers can inspect source code in jar
+    withSourcesJar()
+}
+
 tasks.test {
     useJUnitPlatform()
 }
