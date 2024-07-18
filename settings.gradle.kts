@@ -3,3 +3,6 @@ plugins {
 }
 rootProject.name = "gradle-playground"
 
+include(
+    "app",
+)
