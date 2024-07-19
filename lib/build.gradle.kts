@@ -1,7 +1,5 @@
 plugins {
     id("library-conventions")
-    id("HelloPlugin")
-    id("greeting-plugin")
 }
 
 group = "com.capra"
@@ -12,6 +10,12 @@ dependencies {
     implementation(libs.kotlinx.coroutines.core)
 }
 
-greeting {
-    nameProp = "Øyvind"
+/*localPublish {
+    artifact = "heyo"
+}*/
+
+localPublish {
+    conf {
+        artifact = "libby"
+    }
 }

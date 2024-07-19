@@ -9,3 +9,5 @@ java {
     // Publish with sources, so consumers can inspect source code in jar
     withSourcesJar()
 }
+
+apply<LocalPublishPlugin>()
