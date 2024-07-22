@@ -5,5 +5,5 @@ rootProject.name = "gradle-playground"
 
 include(
     "lib",
-    "custom-plugin",
+    "greeting",
 )

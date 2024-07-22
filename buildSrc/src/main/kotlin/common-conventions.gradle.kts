@@ -1,6 +1,7 @@
 plugins {
     java
     kotlin("jvm")
+    id("com.capra.plugins.greeting")
 }
 
 repositories {
