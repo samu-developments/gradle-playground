@@ -3,7 +3,7 @@ import org.gradle.kotlin.dsl.`java-library`
 plugins {
     `java-library`
     id("common-conventions")
-    id("custom-publish-conventions")
+    id("no.capra.plugins.publish")
 }
 
 java {

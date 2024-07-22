@@ -10,8 +10,8 @@ dependencies {
     implementation(libs.kotlinx.coroutines.core)
 }
 
-customPublish {
+publish {
     conf {
-        artifact = "libby"
+        artifact = "capra-lib"
     }
 }

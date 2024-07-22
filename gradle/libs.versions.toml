@@ -3,7 +3,12 @@ kotlin = "2.0.0"
 
 [libraries]
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version = "1.8.1" }
+
+# buildSrc plugin deps
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+capra-plugins-publish = { module = "no.capra.plugins:publish", version = "1.0.0" }
+capra-plugins-greeting = { module = "no.capra.plugins:greeting", version = "1.0.0" }
 
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+gradle-plugin-publish = { id = "com.gradle.plugin-publish", version = "1.2.1" }

@@ -10,5 +10,6 @@ repositories {
 
 dependencies {
     implementation(libs.kotlin.gradle.plugin)
-    implementation("com.capra.plugins:greeting:1.0.0")
+    implementation(libs.capra.plugins.greeting)
+    implementation(libs.capra.plugins.publish)
 }
