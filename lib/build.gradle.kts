@@ -2,7 +2,7 @@ plugins {
     id("library-conventions")
 }
 
-group = "com.capra"
+group = "no.capra"
 version = "1.0-SNAPSHOT"
 
 dependencies {

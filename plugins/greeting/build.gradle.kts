@@ -1,5 +1,5 @@
 plugins {
-    id("common-conventions")
+    kotlin("jvm")
     `kotlin-dsl`
     alias(libs.plugins.gradle.plugin.publish)
 }
@@ -19,4 +19,3 @@ gradlePlugin {
         }
     }
 }
-
