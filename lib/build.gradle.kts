@@ -10,11 +10,7 @@ dependencies {
     implementation(libs.kotlinx.coroutines.core)
 }
 
-/*localPublish {
-    artifact = "heyo"
-}*/
-
-localPublish {
+customPublish {
     conf {
         artifact = "libby"
     }

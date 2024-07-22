@@ -10,4 +10,4 @@ java {
     withSourcesJar()
 }
 
-apply<LocalPublishPlugin>()
+apply<CustomPublishPlugin>()
